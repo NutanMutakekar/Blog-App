@@ -77,15 +77,16 @@ Or if you prefer using nodemon:
 
 npm run dev
 
-📡 API Endpoints
-Example endpoints — rename/update based on your actual route paths
+## 📡 API Endpoints
 
-Method	Route	Description
-GET	/api/posts	Retrieve all blog posts
-GET	/api/posts/:id	Retrieve a blog post by ID
-POST	/api/posts	Create a new blog post
-PUT	/api/posts/:id	Update an existing blog post
-DELETE	/api/posts/:id	Delete a blog post
+| Method | Route | Description |
+|--------|-------|-------------|
+| GET | /api/posts | Retrieve all blog posts |
+| GET | /api/posts/:id | Retrieve a blog post by ID |
+| POST | /api/posts | Create a new blog post |
+| PUT | /api/posts/:id | Update an existing blog post |
+| DELETE | /api/posts/:id | Delete a blog post |
+
 
 🧠 Error Handling
 This API uses custom error classes and centralized middleware in middleware/ to return formatted JSON error responses for:
