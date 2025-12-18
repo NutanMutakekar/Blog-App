@@ -1,4 +1,4 @@
-#Blog App API
+# Blog App API
 
 A simple **Blog Application REST API** built using **Node.js**, **Express**, and **MongoDB**.  
 This backend provides CRUD operations for blog posts and uses a modular folder structure.
